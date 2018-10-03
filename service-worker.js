@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/React-Test-Deploy/precache-manifest.598523dd218f8df443a3bfce18cb2a0c.js"
+  "/Filter-Robot-Friends/precache-manifest.4aaaba75f4f6e9a64848e2956ac3f2e3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/React-Test-Deploy/index.html", {
+workbox.routing.registerNavigationRoute("/Filter-Robot-Friends/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
